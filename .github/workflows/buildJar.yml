@@ -5,7 +5,8 @@ on:
     branches: [ v2 ]
   pull_request:
     branches: [ v2 ]
-
+  watch:
+    types: [started]
 jobs:
   releaseJar:
     runs-on: ubuntu-latest
